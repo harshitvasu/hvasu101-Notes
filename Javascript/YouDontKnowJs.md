@@ -548,4 +548,5 @@ setTimeout( bar, 100 ); // 2
 // so that it cannot be overriden
 
 // bar.call( window ); // 2
+
 ```
