@@ -7,7 +7,10 @@ Database MongoDB and CouchDB use javascript. Node.js is server side programming
 - Infinity , -Infinity, NaN (Not a number)
 - NaN == NaN is false
 
-- Back tick can be used to embed values `${var1/2} is variable 1 divided by 2`
+- Back tick can be used to embed values 
+```javascript
+    `${var1/2} is variable 1 divided by 2`
+```
 - typeof(x) gives the type of operator
 - Precedence of logical operators is || < && < comparison
 - Ternary operator (True)? case1 : case 2
@@ -40,7 +43,7 @@ Conditional expressions
 - When string is coerced to number it is NaN, and NaN is neither greater than nor less than any other value
 
 
-## SCOPING
+SCOPING
 - Inside a block the same variable name is resolved to innermost variable, not global one
 - All local scopes can see local scopes containing them and global scopes
 
@@ -490,8 +493,8 @@ RULES
 
 - DEFAULT BINDING
 
-        (default rule when no other rules apply): standalone function invocation will refer to the default binding
-        In strict mode the global object is not eligible for default binding. strict mode state of call site is irrelevant
+(default rule when no other rules apply): standalone function invocation will refer to the default binding
+In strict mode the global object is not eligible for default binding. strict mode state of call site is irrelevant
 - IMPLICIT BINDING
 
         does the call site have a context object (owning or containing object)
@@ -502,7 +505,9 @@ RULES
         can be implemented using the function.call(object) function. 
         This call() funciton is available from the prototype of the functions
         hard binding can be achieved using 
-            var bar = bind(func,obj)
+```js
+var bar = bind(func,obj)
+```
 - new BINDING
         
         New binding > Explicit binding > Implicit binding > default binding
