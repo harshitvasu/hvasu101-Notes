@@ -1,4 +1,13 @@
 # You dont know JS Notes
+## Table of contents
+- [Arrays](##Arrays)
+- [Strings](##Strings)
+- [Functions](##Functions)
+- [Objects](##Objects)
+- [The Secret life of objects](##THE-SECRET-LIFE-OF-OBJECTS)
+- [Scope](#Scope)
+- ["This" and object prototypes](##"this"-and-object-prototypes)
+
 Database MongoDB and CouchDB use javascript. Node.js is server side programming
 
 64 bits in javascript
