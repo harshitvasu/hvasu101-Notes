@@ -1,12 +1,12 @@
 # You dont know JS Notes
 ## Table of contents
-- [Arrays](##Arrays)
-- [Strings](##Strings)
-- [Functions](##Functions)
-- [Objects](##Objects)
-- [The Secret life of objects](##THE-SECRET-LIFE-OF-OBJECTS)
-- [Scope](#Scope)
-- ["This" and object prototypes](##"this"-and-object-prototypes)
+1. [Arrays](##Arrays)
+1. [Strings](##Strings)
+1. [Functions](##Functions)
+1. [Objects](##Objects)
+1. [The Secret life of objects](##THE-SECRET-LIFE-OF-OBJECTS)
+1. [Scope](#Scope)
+1. ["This" and object prototypes](##"this"-and-object-prototypes)
 
 Database MongoDB and CouchDB use javascript. Node.js is server side programming
 
